@@ -88,7 +88,12 @@ export default function HomePage() {
             marginRight="6"
             overflow="hidden"
           >
-            <img alt="Ishola Obafemi" src="/static/images/IMG.jpg" style={{ objectFit: 'cover' }} />
+            <img
+              alt="Ishola Obafemi"
+              src="/static/images/IMG.jpg"
+              fetchPriority="high"
+              style={{ objectFit: 'cover' }}
+            />
           </Circle>
 
           <Heading

@@ -73,7 +73,12 @@ function ProjectImageCard(props: ProjectImageCardProps) {
           },
         }}
       >
-        <img alt={alt} src={src} style={{ objectFit: 'cover', objectPosition }} />
+        <img
+          alt={alt}
+          data-src={src}
+          className="lazyload"
+          style={{ objectFit: 'cover', objectPosition }}
+        />
       </Box>
     </Box>
   );

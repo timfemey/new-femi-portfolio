@@ -11,7 +11,13 @@ export default function TestimonialCard(props: (typeof testimonialMain)[0]) {
       <Box>
         <HStack spacing="5">
           <Circle overflow="hidden">
-            <img alt={testimonial.name} width="50" height="50" src={testimonial.image} />
+            <img
+              alt={testimonial.name}
+              width="50"
+              height="50"
+              className="lazyload"
+              data-src={testimonial.image}
+            />
           </Circle>
           <Box>
             <Text fontWeight="bold">{testimonial.name}</Text>

@@ -103,6 +103,7 @@ function Headshot() {
         <img
           alt="Ishola Obafemi"
           src="/static/images/IMG.jpg"
+          fetchPriority={'high'}
           width={32}
           height={32}
           style={{ objectFit: 'cover' }}
