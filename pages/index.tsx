@@ -11,7 +11,7 @@ import {
   Wrap,
   WrapItem,
 } from '@chakra-ui/react';
-
+import 'lazysizes';
 import Container from 'components/container';
 import Emoji from 'components/emoji';
 
