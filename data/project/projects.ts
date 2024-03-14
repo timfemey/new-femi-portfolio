@@ -45,10 +45,10 @@ export const projectData = [
   },
   {
     id: 6,
-    title: "Clara",
+    title: "log-analyzer",
     description:
-      "A discord bot made with Node.js that can help admins carry out tasks on their discord servers and members accessibility functions.",
-    gitHubLink: "https://github.com/timfemey/Clara",
+      "This Node.js application is designed to efficiently parse and analyze log files, supporting both JSON and text formats. Whether you're dealing with small logs or large files, this CLI tool is optimized for speed and simplicity",
+    gitHubLink: "https://github.com/timfemey/log-analyzer",
     websiteLink: "",
     image: "https://th.bing.com/th/id/R.f7dc3edd5683afe43af49c6fcd21b855?rik=hgOYVp2oBCqyew&pid=ImgRaw&r=0"
   },
