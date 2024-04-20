@@ -37,11 +37,12 @@ export const projectData = [
   },
   {
     id: 5,
-    title: "My Portfolio",
-    description: "My Developer portfolio made with Nextjs and Typescript.",
-    gitHubLink: "https://github.com/timfemey/new-femi-portfolio",
-    websiteLink: "https://femi-port.web.app/",
-    image: "/static/images/new-portfolio.png"
+    title: "go-torrent",
+    description:
+      "A Bit Torrent Client-Server written with Golang, that can participate as a peer for BitTorrent",
+    gitHubLink: "https://github.com/timfemey/go-torrent",
+    websiteLink: "",
+    image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
     id: 6,
@@ -50,7 +51,34 @@ export const projectData = [
       "This Node.js application is designed to efficiently parse and analyze log files, supporting both JSON and text formats. Whether you're dealing with small logs or large files, this CLI tool is optimized for speed and simplicity",
     gitHubLink: "https://github.com/timfemey/log-analyzer",
     websiteLink: "",
-    image: "https://th.bing.com/th/id/R.f7dc3edd5683afe43af49c6fcd21b855?rik=hgOYVp2oBCqyew&pid=ImgRaw&r=0"
+    image: "https://images.pexels.com/photos/1370294/pexels-photo-1370294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+
+  {
+    id: 7, title: "go-load-balance",
+    description:
+      "A HTTP Load Balancer programmed with Golang, it supports all Load Balancing Algorithms used in products",
+    gitHubLink: "https://github.com/timfemey/go-load-balance",
+    websiteLink: "",
+    image: "https://images.pexels.com/photos/19166565/pexels-photo-19166565/free-photo-of-modern-building-in-austria.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    id: 8, title: "rate-limiter",
+    description:
+      "A HTTP Rate Limiter programmed using Nodejs that rate-limit clients and prevent DDOs attacks, it supports most Rate Limiting Algorithms used in applications",
+    gitHubLink: "https://github.com/timfemey/rate-limiter",
+    websiteLink: "",
+    image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+
+
+  {
+    id: 9,
+    title: "My Portfolio",
+    description: "My Developer portfolio made with Nextjs and Typescript.",
+    gitHubLink: "https://github.com/timfemey/new-femi-portfolio",
+    websiteLink: "https://femi-port.web.app/",
+    image: "/static/images/new-portfolio.png"
   },
 
 
