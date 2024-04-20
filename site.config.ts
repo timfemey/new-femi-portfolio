@@ -22,7 +22,7 @@ const siteConfig = {
   profiles: {
     github: 'https://github.com/timfemey',
     twitter: 'https://twitter.com/',
-    resume: "https://drive.google.com/file/d/1djrX8Z8wWKofIYvqIn7wXHdIRWje9LBh/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1t_b-5b61FZeJHxse5bR3E75ATy52FPSE/view?usp=sharing",
     linkedin: 'https://www.linkedin.com/in/obafemi-ishola/',
     email: 'mailto:isholaobafemi@gmail.com',
   },
